@@ -14,13 +14,13 @@ And in the JUnit test code, the data can be retrieved as follow:
 		assertEquals("1.2", record.getRelease());
 ```
 	
-###To deploy the app:
+###To download, build and deploy the app:
 
 1. git glone https://github.com/seenaka/SampleRestApp.git
 2. cd SampleRestApp
-3. mvn install
+3. mvn jetty:run
 
-This would give you a .war file to deploy (target/SampleRestApp-1.0.0-BUILD-SNAPSHOT.war)
+Or you can run `mvn install` and get a .war file to deploy on another appserver (target/SampleRestApp-1.0.0-BUILD-SNAPSHOT.war)
 
 
 
