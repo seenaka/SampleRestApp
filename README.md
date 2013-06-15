@@ -16,7 +16,7 @@ And in the JUnit test code, the data can be retrieved as follow:
 	
 ###To download, build and deploy the app:
 
-1. git glone https://github.com/seenaka/SampleRestApp.git
+1. git clone https://github.com/seenaka/SampleRestApp.git
 2. cd SampleRestApp
 3. mvn jetty:run
 
