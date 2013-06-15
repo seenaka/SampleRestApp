@@ -26,7 +26,7 @@ public class RestController {
 
 	@ResponseBody
 	@RequestMapping(method = RequestMethod.GET)
-	public UVInfoLog getUVInfoLog(@PathVariable String inputYear) {
+	public UVInfoLog getRecordByYear(@PathVariable String inputYear) {
 
 		UVInfoLog record = db.sampleData.get(inputYear);
 
@@ -35,7 +35,7 @@ public class RestController {
 
 	@RequestMapping(value = "/update", method = RequestMethod.PUT)
 	@ResponseStatus(HttpStatus.OK)
-	public void updateByYear(@PathVariable String    inputYear, 
+	public void updateRecordByYear(@PathVariable String    inputYear, 
 							 @RequestBody  UVInfoLog inputRecord) {
 
 		UVInfoLog record = db.sampleData.get(inputYear);
