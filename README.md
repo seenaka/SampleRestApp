@@ -22,7 +22,7 @@ And in the JUnit test code, the data can be retrieved as follow:
 
 Or you can run `mvn install` and get a .war file to deploy on another appserver (target/SampleRestApp-1.0.0-BUILD-SNAPSHOT.war)
 
-Alternatively you can download the project as a zip
+Alternatively you can download the project as a zip here https://github.com/seenaka/SampleRestApp/archive/master.zip
 
 
 
